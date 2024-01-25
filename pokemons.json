@@ -1,0 +1,106 @@
+{
+    "pokemon": [
+      {
+        "id": "Jynx001",
+        "nombre": "Jynx",
+        "tipo": ["Hielo", "Psíquico"],
+        "medidas": {
+          "peso": "40,6kg",
+          "altura": "1,4m"
+        },
+        "estadisticas": {
+          "velocidad": "3",
+          "fuerza": "3",
+          "precision": "5",
+          "resistencia": "4"
+        },
+        "movimientos": [
+          {
+            "tipo": "Hada",
+            "nombre": "Beso dulce",
+            "potencia": "-",
+            "contacto": "No"
+          },
+          {
+            "tipo": "Fantasma",
+            "nombre": "Lengüetazo",
+            "potencia": "30",
+            "contacto": "Sí"
+          },
+          {
+            "tipo": "Normal",
+            "nombre": "Destructor",
+            "potencia": "40",
+            "contacto": "Sí"
+          }
+        ],
+        "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/e/e2/Jynx.png",
+        "evoluciones": [
+            {
+                "pre-evolucion": {
+                    "id": "Smoochum001",
+                    "nombre": "Smoochum",
+                    "nivel_evolucion": "30",
+                    "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/7/7c/Smoochum.png"
+                }  
+            }
+        ]
+      },
+      {
+        "id": "Eevee001",
+        "nombre": "Eevee",
+        "tipo": ["Normal"],
+        "medidas": {
+        "peso": "06.5kg",
+        "altura": "0.3m"
+      },
+      "estadisticas": {
+        "velocidad": "4",
+        "fuerza": "4",
+        "precision": "4",
+        "resistencia": "4"
+      },
+      "movimientos": [
+        {
+          "tipo": "Hada",
+          "nombre": "Encanta",
+          "potencia": "-",
+          "contacto": "No"
+        },
+        {
+          "tipo": "Normal",
+          "nombre": "Meteoroa",
+          "potencia": "60",
+          "contacto": "No"
+        },
+        {
+          "tipo": "Agua",
+          "nombre": "Danza de lluvia",
+          "potencia": "-",
+          "contacto": "No"
+        }
+      ],
+      "imagen": "https://www.wikidex.net/wiki/Archivo:Eevee.png",
+      "evoluciones": [ 
+        {
+                "id": "Vaporeon01",
+                "nombre": "Vaporeon",
+                "nivel_evolucion": "30",
+                "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/f/fc/latest/20210627185640/Vaporeon.png/400px-Vaporeon.png"
+            },
+            {
+              "id": "Jolteon01",
+              "nombre": "Jolteon",
+              "nivel_evolucion": "30",
+              "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/1e/latest/20210627205409/Jolteon.png/400px-Jolteon.png"
+          },
+          {
+            "id": "Flareon01",
+            "nombre": "Flareon",
+            "nivel_evolucion": "30",
+            "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/1/17/latest/20210628144841/Flareon.png/400px-Flareon.png"
+        }     
+    ]
+      }
+    ]
+  }
